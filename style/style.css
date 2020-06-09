@@ -43,11 +43,16 @@ body {
 }
 
 .carousel {
+  display: flex;
   border: 2px solid gray;
-  width: 70%;
+  width: 95vw;
   height: 50vh;
   border-radius: 20px;
   background-color: lightgray;
+}
+
+img.carousel {
+  width: 33%;
 }
 
 .reg {
@@ -57,8 +62,7 @@ body {
   margin-top: 50px;
 }
 
-.reg input,
-.reg label {
+.reg input, .reg label {
   width: 20vw;
   margin-bottom: 5px;
 }
